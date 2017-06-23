@@ -10,9 +10,20 @@
 </head>
 <body>
 <div class="container">
-    <ul class="dropdown">
-        <li class="divider"></li>
-    </ul>
+    <div class="btn-group">
+        <button class="btn btn-info">华为</button>
+        <button class="btn btn-info">小米</button>
+        <div class="btn-group">
+            <button class="btn btn-info dropdown-toggle " data-toggle="dropdown">
+                荣耀 <span class="caret"></span>
+            </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="">荣耀7</a></li>
+                    <li><a href="">荣耀8</a></li>
+                    <li><a href="">荣耀9</a></li>
+                </ul>
+        </div>
+    </div>
 </div>
 </body>
 </html>
